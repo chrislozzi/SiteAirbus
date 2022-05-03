@@ -1,3 +1,4 @@
+
 p {
     margin:auto;
     padding: 10px;
@@ -34,7 +35,7 @@ h3{
 .container {
     position: relative;
     width: auto;
-    height: 700px;
+    height: 100%;
     margin: 20px;
     padding: 10px;
     justify-content: center;
@@ -48,9 +49,9 @@ h3{
     margin-right: 1%;
     margin-bottom: 10px;
     padding: 10px;
-    background: white;
-    border-color: darkslategrey;
-    border-style: solid;
+    background: whitesmoke;
+   
+
 }
 
 .container_news{
@@ -59,6 +60,7 @@ h3{
     height: min-content;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .article_text{
@@ -85,8 +87,8 @@ h3{
 .picture-right {
     z-index: 1;
     margin-left: 35%;
-    width: 1500px;
-    height: 700px;
+    width: 65%;
+    height: 100%;
 }
 
 .text-right{
@@ -107,8 +109,8 @@ h3{
 .picture-left{
     z-index: 1;
     margin-left: 5%;
-    width: 1500px;
-    height: 700px;
+    width: 95%;
+    height: 100%;
 }
 
 .picture_news{
@@ -117,6 +119,7 @@ h3{
     height: fit-content;
     width: fit-content;
     display: block;
+    
 }
 
 .news{
