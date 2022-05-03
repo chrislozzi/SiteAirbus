@@ -5,17 +5,15 @@
   margin: 0;
   padding: 0;
 }
-*{
-  /* border-style: dashed;
+/* *{
+  border-style: dashed;
 
-  border-color: crimson; */
-}
+  border-color: crimson;
+} */
 .home-page-link-container {
-  padding-top: 16px;
-  height: 50px;
-  align-items: center;
+  height: 70px;
   background-color: #002d80;
-  border-radius: 1px;
+  margin-bottom: 2px;
   border-color: #f9f9f9;
 }
 
@@ -23,10 +21,13 @@
   width: 100%;
   height:auto;
 }
-
+.home-page-link-container a{
+margin-bottom: auto;
+}
 #home-page-link {
   padding-left: 10px;
-  padding-bottom: 50%;
+  margin-bottom: 50%;
+  
 }
 
 /*******************************navbar-begin*****************************/
@@ -108,6 +109,7 @@ header {
 }
 
 h1 {
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: var(--primary-color-3, #002d80);
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -155,6 +157,8 @@ h2{
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 0px;
+  font-size: 1.875rem;
+  line-height: 2.125rem;
 }
 
 h3{
@@ -164,6 +168,12 @@ h3{
   margin-top: 5px;
 }
 
+.container-center{
+
+  position: relative;
+  text-align: center;
+  width: 40%;
+}
 .container {
   position: relative;
   width: auto;
@@ -201,7 +211,19 @@ h3{
   display: block;
   color: black;
 }
-
+.text-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.text-center h2{
+  color: whitesmoke;
+}
+.text-center p{
+  font-size: larger ;
+  color: #f9f9f9;
+}
 .text-left {
   position: absolute;
   width: 40%;
@@ -253,6 +275,7 @@ h3{
   display: block;
   
 }
+
 
 .news{
   max-width: 100%;
@@ -332,9 +355,7 @@ align-content: center;
 .col-bb{
   padding: 15px;
 }
-img{
-  /* background-color: #00205b; */
-}
+
 .nani {
   color: #00205b;
   text-align: end;
